@@ -11,6 +11,6 @@
 | 층별 실내 구조와 가구 배치 | [실내 평면도](https://hoin1357.github.io/ARDMU/동양미래대%20실내%20구조도.html) |
 | 캠퍼스 모형과 현장 사진 비교 | [캠퍼스 순회 대조](https://hoin1357.github.io/ARDMU/동양미래대%20본교%20캠퍼스/캠퍼스%20순회%20대조.html) |
 
-저장소에는 Blender 원본, GLB 모델, 영상과 PDF도 있습니다. 캠퍼스 산책은 처음 열 때 81 MiB인 3D 모델을 불러옵니다.
+캠퍼스 산책은 웹용으로 무손실 압축한 3D 모델을 불러옵니다. 원본 GLB와 Blender 파일, 영상, PDF도 저장소에서 받을 수 있습니다.
 
 [오프라인 산책 HTML 다운로드](https://github.com/hoin1357/ARDMU/releases/tag/v1.0.0)
