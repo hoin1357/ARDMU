@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="동양미래대학교 구로 캠퍼스의 3D 산책, 건물 외관과 실내 평면도">
+  <title>ARDMU · 동양미래대학교 캠퍼스</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.6 system-ui, sans-serif; color: #173c34; background: #f5f6ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1120px; margin: auto; padding: clamp(1.25rem, 5vw, 3.75rem); }
+    header { margin-bottom: 1.5rem; }
+    h1, h2, p { margin: 0; }
+    h1 { font-size: clamp(1.85rem, 5vw, 3rem); line-height: 1.2; }
+    header p { margin-top: .55rem; color: #4b625a; }
+    a { color: #135746; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid #ac560f; outline-offset: 4px; }
+    .hero { display: grid; grid-template-columns: 1.3fr 1fr; align-items: center; }
+    .hero img { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16/10; }
+    .hero, .card { border: 1px solid #cbd7cc; background: #fffefa; border-radius: 1rem; overflow: hidden; }
+    .content { padding: clamp(1.15rem, 4vw, 2.15rem); }
+    .content p { margin-top: .45rem; color: #4b625a; }
+    .primary { display: inline-block; margin-top: .9rem; background: #135746; color: #fff; padding: .55rem .9rem; border-radius: .4rem; font-weight: 650; text-decoration: none; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .card { padding: 1.15rem 1.35rem; }
+    .card h2 { font-size: 1.2rem; }
+    .card a { display: inline-block; margin: .45rem .9rem 0 0; }
+    footer { margin-top: 1.25rem; }
+    @media (max-width: 650px) { .hero, .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>동양미래대학교 캠퍼스</h1>
+      <p>ARDMU · 구로 본교 3D 모형과 실내 평면도</p>
+    </header>
+    <section class="hero" aria-labelledby="campus-title">
+      <img src="동양미래대 본교 캠퍼스/본교 미리보기.png" alt="위에서 본 동양미래대학교 캠퍼스 3D 모형">
+      <div class="content">
+        <h2 id="campus-title">동그래로 캠퍼스 걷기</h2>
+        <p>3D로 캠퍼스를 둘러보고, 동그래로 직접 걸어보세요. 처음 열 때 81 MiB 모델을 불러옵니다.</p>
+        <a class="primary" href="동양미래대 본교 캠퍼스/캠퍼스 산책.html">캠퍼스 산책 열기</a>
+      </div>
+    </section>
+    <div class="grid">
+      <section class="card">
+        <h2>1호관·도서관·잔디광장</h2>
+        <a href="1호관과 도서관 외관/외관 3D 보기.html">외관 3D 보기</a>
+      </section>
+      <section class="card">
+        <h2>실내 평면도</h2>
+        <a href="동양미래대 실내 구조도.html">층별 구조와 가구 배치</a>
+        <a href="동양미래대 실내 평면도.pdf">전체 PDF</a>
+        <a href="도서관 4층 평면도.png">도서관 4층</a>
+      </section>
+      <section class="card">
+        <h2>현장 사진 대조</h2>
+        <a href="동양미래대 본교 캠퍼스/캠퍼스 순회 대조.html">캠퍼스 순회</a>
+        <a href="동양미래대 본교 캠퍼스/사진과 질감 비교.html">사진과 질감 비교</a>
+        <a href="동양미래대 본교 캠퍼스/미확인 31곳 재조사.html">미확인 31곳</a>
+        <a href="동양미래대 본교 캠퍼스/첨부 7곳 사진 대조.html">첨부 7곳</a>
+        <a href="동양미래대 본교 캠퍼스/첨부 10곳 사진 대조.html">첨부 10곳</a>
+      </section>
+      <section class="card">
+        <h2>영상과 3D 모델</h2>
+        <a href="동양미래대 본교 캠퍼스/동그래 광장에서 운동장까지.mp4">광장에서 운동장까지 영상</a>
+        <a href="동양미래대 본교 캠퍼스/동양미래대 전체 캠퍼스.glb" download>캠퍼스 GLB</a>
+        <a href="동양미래대 본교 캠퍼스/동양미래대 전체 캠퍼스.blend" download>캠퍼스 Blender</a>
+      </section>
+    </div>
+    <footer><a href="https://github.com/hoin1357/ARDMU">GitHub 저장소</a></footer>
+  </main>
+</body>
+</html>
